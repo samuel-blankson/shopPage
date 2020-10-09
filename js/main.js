@@ -87,4 +87,8 @@ $(document).ready(function(){
 
       $('#newsletter-checkbox').trigger('change');
 
+      $('#submit-cart').on('click',function(){
+        
+      });
+
     });
