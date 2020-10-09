@@ -1,0 +1,23 @@
+{
+    "items" : [{
+        "id" : 1001,
+        "name": "santa Monica",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit." ,
+    "price" : 499,
+    "moreInfo":"Lorem ipsum dolor sit"
+    },
+    {
+        "id" : 1002,
+        "name": "lapaz",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit." ,
+    "price" : 499,
+    "moreInfo":"Lorem ipsum dolor sit"
+    },
+    {
+        "id" : 1003,
+        "name": "kaneshie",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit." ,
+    "price" : 499,
+    "moreInfo":"Lorem ipsum dolor sit"
+    }]
+}
