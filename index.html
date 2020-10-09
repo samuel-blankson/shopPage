@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shop</title>
-    <script src="/jsjquery-3.5.1.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
     <script src="js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <div id="admin-container">
+        <input id="input-create-item" type="text"></input>
+        <button id="button-create-item">Add</button>
+    </div>
     <div id="container">
         <div class="item">
-            <div class="name">New York</div>
+            <div class="name">Accra</div>
+            <img src="assets/pic.jpg"></img>
             <div class="description">Lorem ipsum dolor 
                 sit amet consectetur 
                 adipisicing elit. </div>
                 <div class="price">488</div>
-                <button>Add to cart</button>
+                <button class="item-add">Add to cart</button>
+                <button class="item-remove">Remove</button>
+                <br/>
                 <a href="#">more info</a>
                 <div class="more-info">Lorem ipsum dolor sit</div>
         </div>
-
+        <br style="clear: left;"/>
     </div>
+    
     
 </body>
 </html>
