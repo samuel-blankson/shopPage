@@ -87,8 +87,22 @@ $(document).ready(function(){
 
       $('#newsletter-checkbox').trigger('change');
 
-      $('#submit-cart').on('click',function(){
-        
+      $('#cart-form').on('submit',function(event){
+        event.preventDefault();
+
+        let data =  {
+          form : $('#cart-form').serialize(),
+          price : cart
+        };
+
+        $.ajax($(this).attr('action',{
+          type : 'post',
+          data : data
+
+        }))
+        .done(function(response){
+          $('#feedback-message').text(response.message);
+        });
       });
 
     });
